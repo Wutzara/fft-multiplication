@@ -1,0 +1,5 @@
+def.o: def.c /usr/include/stdc-predef.h def.h
+
+/usr/include/stdc-predef.h:
+
+def.h:

@@ -1,0 +1,7 @@
+Kleines c-Programm um Fast Fourier Multiplikationen zu rechnen. Gibt man in 
+der configure.ac DEBUG=1 an bekommt man die (in meinen Augen relevanten)
+Zwischenergebnisse auch angezeigt. Die Eingabe der Vektoren ist noch etwas
+umständlich - hatte keine Lust auf Datei-Einlese Zeug oder cli-Abfragen,
+deswegen hardcodiert in main.c
+
+Vielleicht kann jemand was damit anfangen

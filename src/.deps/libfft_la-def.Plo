@@ -1,0 +1,5 @@
+libfft_la-def.lo: def.c /usr/include/stdc-predef.h def.h
+
+/usr/include/stdc-predef.h:
+
+def.h:
