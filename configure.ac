@@ -23,6 +23,7 @@ AC_FUNC_MALLOC
 
 AC_DEFINE([DEBUG], 0, [enables Debug Output])
 AC_CONFIG_FILES([Makefile
+                 src/Makefile
                  fft/Makefile
                  tests/Makefile])
 AC_OUTPUT

@@ -1,1 +1,1 @@
-SUBDIRS = fft . tests
+SUBDIRS = fft src tests

@@ -3,8 +3,15 @@ Fast Fourier Polynom Multiplikation
 
 Kleines c-Programm um Fast Fourier Multiplikationen zu rechnen. Gibt man in 
 der configure.ac DEBUG=1 an bekommt man die (in meinen Augen relevanten)
-Zwischenergebnisse auch angezeigt. Die Eingabe der Vektoren ist noch etwas
-umständlich - hatte keine Lust auf Datei-Einlese Zeug oder cli-Abfragen,
-deswegen hardcodiert in main.c
+Zwischenergebnisse auch angezeigt.
+
+Das Fileformat für die Eingabe der Vektoren ist
+-----------------
+n
+Koeffizienten Vektor 1
+Koeffizienten Vektor 2
+-----------------
+
+Beispiele finden sich unter input oder input2
 
 Vielleicht kann jemand was damit anfangen
