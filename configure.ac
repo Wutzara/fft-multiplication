@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([FAST_FOURIER_MULTIPLIKATION], [1.0], [info@gunibert.de])
+AC_INIT([FAST_FOURIER_MULTIPLIKATION], [1.1], [info@gunibert.de])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE
