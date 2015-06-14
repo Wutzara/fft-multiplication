@@ -104,7 +104,7 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am_check_fft_OBJECTS = check_fft-check_fft.$(OBJEXT)
 check_fft_OBJECTS = $(am_check_fft_OBJECTS)
-check_fft_DEPENDENCIES = $(top_builddir)/src/libfft.la
+check_fft_DEPENDENCIES = $(top_builddir)/fft/libfft.la
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
@@ -499,9 +499,9 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-check_fft_SOURCES = check_fft.c $(top_builddir)/src/fft.h
-check_fft_CFLAGS = @CHECK_CFLAGS@
-check_fft_LDADD = -lm $(top_builddir)/src/libfft.la @CHECK_LIBS@
+check_fft_SOURCES = check_fft.c $(top_builddir)/fft/fft.h
+check_fft_CFLAGS = @CHECK_CFLAGS@ -I$(top_srcdir)
+check_fft_LDADD = -lm $(top_builddir)/fft/libfft.la @CHECK_LIBS@
 all: all-am
 
 .SUFFIXES:
